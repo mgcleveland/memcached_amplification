@@ -2,7 +2,7 @@
 Proof of concept for memcached amplification attack over UDP
 
 # Compile
-gcc spoof_memcached_udp_request.c spoof_memcached_udp_request
+gcc spoof_memcached_udp_request.c -o spoof_memcached_udp_request
 
 # Run
 ./spoof_memcached_udp_request <memcached_server_ip> <memcached_server_port> <target_ip> <target_port>
